@@ -11,7 +11,7 @@ namespace GenericsBasics
             Salaries salaries = new Salaries();
 
             // ArrayList salaryList = salaries.GetSalaries();
-            List<float> salaryList = salaries.GetSalaries();
+            List<float> salaryList = salaries.GetSalaries(); //列表的实例
             
             float salary = salaryList[1];
 
@@ -28,8 +28,9 @@ namespace GenericsBasics
     public class Salaries
     {
         //ArrayList _salaryList = new ArrayList();
+        //List<float>类型的字段 存储工资
         List<float> _salaryList = new List<float>();
-
+        //构造放啊
         public Salaries()
         {
             /*_salaryList.Add(60000.34);
